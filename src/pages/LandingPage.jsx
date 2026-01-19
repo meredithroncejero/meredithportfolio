@@ -48,13 +48,14 @@ const LandingPage = () => {
           {/* Download Resume & View Work */}
           <div className="flex flex-col items-center sm:items-start mt-6">
             <a
-              href="/public/Meredith_M._Roncejero_Inern_Resume.pdf"
+              href="/Meredith_M._Roncejero_Intern_Resume.pdf"
               download
               className="inline-block mb-3 px-6 py-3 bg-blue-300 text-white font-bold rounded hover:bg-blue-600 transition-colors"
               style={{ fontFamily: 'satoshi-bold' }}
             >
               Download Resume
             </a>
+
 
             <Link
               to="/projects"
